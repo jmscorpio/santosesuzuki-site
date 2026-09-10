@@ -18,7 +18,7 @@ export const escritorio = {
     logradouro: "Rua Simão Bolivar, 897",
     cidade: "Curitiba",
     uf: "PR",
-    cep: PENDENTE("CEP"),
+    cep: "80.040-140",
     pais: "BR",
   },
   telefone: "(41) 3073-1834",
@@ -26,10 +26,10 @@ export const escritorio = {
   email: "contato@santosesuzuki.com",
 
   // --- Pendentes de preenchimento ---
-  cnpj: PENDENTE("CNPJ"),
-  registroOAB: PENDENTE("REGISTRO_SOCIEDADE_OAB_PR"),
+  cnpj: "27.518.502/0001-65",
+  registroOAB: "6.074",
   encarregadoLGPD: {
-    nome: PENDENTE("ENCARREGADO_LGPD_NOME"),
+    nome: "João Maria dos Santos",
     email: PENDENTE("ENCARREGADO_LGPD_EMAIL"),
   },
   horarioAtendimento: PENDENTE("HORARIO_ATENDIMENTO"),
@@ -48,17 +48,17 @@ export type Profissional = {
 export const profissionais: Profissional[] = [
   {
     slug: "socio-1",
-    nome: PENDENTE("SOCIO_1_NOME"),
+    nome: "João Maria dos Santos",
     cargo: "Sócio",
-    oab: PENDENTE("SOCIO_1_OAB"),
+    oab: "OAB/PR 84.141",
     bio: PENDENTE("SOCIO_1_BIO"),
     formacao: [PENDENTE("SOCIO_1_FORMACAO")],
   },
   {
     slug: "socio-2",
-    nome: PENDENTE("SOCIO_2_NOME"),
-    cargo: "Sócio",
-    oab: PENDENTE("SOCIO_2_OAB"),
+    nome: "Elaine Yumi Suzuki",
+    cargo: "Sócia",
+    oab: "OAB/PR 48.362",
     bio: PENDENTE("SOCIO_2_BIO"),
     formacao: [PENDENTE("SOCIO_2_FORMACAO")],
   },
